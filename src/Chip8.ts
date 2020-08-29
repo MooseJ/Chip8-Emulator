@@ -12,7 +12,4 @@ export class Chip8 {
     this.memory = new Memory();
     this.registers = new Registers();
   }
-
-
-
 }

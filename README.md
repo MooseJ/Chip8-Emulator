@@ -1,18 +1,20 @@
 # Chip8-Emulator
 
 ## Development
-Clone down this repo and run npm install to install the dependencies.
+Clone down this repo and run `npm install` to install the required dependencies.
 
-Make changes.
+Make the changes you want to make.
 
 Then in the root of the repo, run:
 1. `tsc`
 2. `node ./dist/index.js`
 
+For testing, add a test to the `__tests__` folder following the format [filename].test.ts, and run `npm run test`
+
 ## Goals
-- I want to focus on using Test Driven Development (TDD) to build out this project to learn how to acutally do it and how I feel about it.
-- I want to have the chip 8 library be as portable as possible and be able to run it anyway that can run javascript. (React, Electron, Terminal)
+- Focus on using Test Driven Development (TDD) while working on this project.
+- The Chip8 library should be portable. Be able to use the library anywhere that can run JavaScript. (React, Electron, Terminal)
 
 ## Resources Used
-[Cowgod's Chip-8 Technial Reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM)
-[Mastering CHIP-8 by Matthew Mikolay](http://mattmik.com/files/chip8/mastering/chip8.html)
+- [Cowgod's Chip-8 Technial Reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM)
+- [Mastering CHIP-8 by Matthew Mikolay](http://mattmik.com/files/chip8/mastering/chip8.html)
